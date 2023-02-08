@@ -1,0 +1,23 @@
+{
+  "name": "nodejs-fetch-api-with-json",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon --experimental-json-modules server.js"
+  },
+  "type": "module",
+  "nodemonConfig": {
+    "ignore": [
+      "*.json"
+    ]
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "mongoose": "^6.7.0",
+    "node-fetch": "^3.2.10"
+  }
+}
